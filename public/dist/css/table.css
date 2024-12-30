@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+#formulir {
+	margin:10px 0px 0px 0px;
+	padding: 0px;
+}
+#formulir input[type=submit] {
+	margin-left:0px;
+	padding:0;
+	height:32px;
+	width:70px;
+}
+#formulir dl dt {
+	width:200px;
+	float:left;
+}
+#formulir dl dd {
+	float:left;
+}
+#formulir a {
+	float:left;
+	padding-top:5px;
+	font-weight:bold;
+}
+.form-control {
+	border:medium ridge #fff;
+	font-size:13px;
+}
+#table-header {
+	margin:0px 0px 20px 0px;
+	padding:0px;
+	font-weight:bold;
+	text-align:center;
+	border:none;
+	color: #fff;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+#table-wrap, #table-only-wrap {
+	margin:10px auto 0px auto;
+	width:100%;
+}
+#table-wrap {
+	min-height:420px;
+}
+#table-only-wrap {
+	min-height:465px;
+}
+#table-wrap #p-hasil {
+	color:#fff;
+	padding:0px 10px 0px 0px;
+}
+#table-only-wrap #p-hasil {
+	margin-top:15px;
+	padding:0px 10px 0px 5px;
+	font-weight:bold;
+}
+#daftar {
+	margin: 0px;
+	border: thick solid #FFFFFF;
+}
+#daftar th {
+	height:50px;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 12px;
+	background-color: #222;
+	border-bottom: medium ridge #FFFFFF;
+	color:#FFFFFF;
+	text-transform:uppercase;
+}
+#daftar #th-detail {
+	text-align:left;
+	padding-left: 10px;
+	font-size:14px;
+}
+#daftar td {
+	font-size: 11px;
+	border-right: thin solid #9C9C9C;
+	border-left: solid thin #9C9C9C;
+	border-bottom:  solid thin #9C9C9C;
+	background-color: #FFFFFF;
+	border-collapse: collapse;
+	text-transform:uppercase;
+}
+#daftar a {
+	color: #222222;
+	font-weight: bold;
+}
+#daftar #penghubung {
+	text-decoration:none;
+	color:#1A4AFF;
+}
+#daftar img {
+	height:35px;
+	padding-top:0px;
+	width:50px;
+}
+#pagination {
+	margin:20px 0px 40px 0px;
+	color:#fff;
+}

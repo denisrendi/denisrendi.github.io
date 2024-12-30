@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+.home-col {
+	margin-top: 10px;
+	padding:0px 30px 0px 30px;
+}
+#form-header {
+	margin: 10px 0px 20px 0px;
+	padding: 0px;
+	text-align: left;
+	border: none;
+	color: #fff;
+}
+.form-horizontal {
+	margin: 0px;
+	padding: 0px;
+}
+.form-horizontal .form-group {
+	margin:0px 0px 5px 0px;
+}
+.form-horizontal .form-group .control-label {
+	padding:5px 0px 0px 0px;
+	text-align:left;
+	color: #fff;
+	font-size: 14px;
+	font-weight:normal;
+}
+.form-horizontal .form-group .control-element {
+	margin:0px;
+	padding:0px 0px 0px 20px;
+}
+
+.form-horizontal #inputcari {
+	width:60%;
+	margin-bottom:15px;
+}
+.form-horizontal #grup, #lmr, #rak, #box {
+	width:50%;
+	float:left;
+}
+.form-horizontal .form-control {
+	border:medium ridge #fff;
+	font-size:13px;
+}
+
+#slider {
+	margin-top: 40px;
+	float: left;
+}
+.btn-group {
+	margin-top:10px;
+	float:right;
+}

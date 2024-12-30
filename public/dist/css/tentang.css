@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+.wrap-tentang {
+	padding-bottom:20px;
+	background-image:url(../images/white_wall.png);
+}
+h2, #tentangh3, #tentangh4, #tentangh5, #tentangp {
+	margin:0;
+}
+h2, #tentangh3, #tentangh4, #tentangh5, #tentangp, table {
+	color:#000;
+}
+h2 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color:#111;
+	text-align: center;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+#tentangh3, #tentangh4 {
+	text-align:left;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:50px;
+}
+#tentangh5 {
+	text-align:center;
+}
+#tentangp {
+	padding:10px 50px 0px 50px;
+	text-align: justify;
+	font-size: 15px;
+}
+table {
+	margin-top:20px;
+}
+table, th, td {
+	border: solid thin #111;
+	border-collapse: collapse;
+}	
+table th {
+	padding-top:2px;
+	padding-bottom:2px;
+	font-size:12px;
+	text-align:center;
+}
+#tentangimg {
+	border: thin solid #000;
+	border-radius:5px;
+	margin-top:20px;
+	margin-bottom:20px;
+}

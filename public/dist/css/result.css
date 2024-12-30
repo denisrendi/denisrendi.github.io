@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+#form-header {
+	width: 100%;
+	margin: 0px 0px 10px 0px;
+	padding: 0px;
+	text-align: left;
+	border: none;
+	color: #fff;
+}
+.form-horizontal {
+	margin: 0px;
+	padding: 0px;
+}
+.form-group {
+	margin-bottom:5px;
+}
+.form-horizontal #inputcari {
+	width:60%;
+}
+.form-horizontal #grup, #lmr, #rak, #box {
+	width:60%;
+	margin-right:-20%;
+	float:left;
+}
+.form-horizontal .form-control {
+	border:medium ridge #fff;
+	font-size:13px;
+}
+.form-horizontal input[name=inputcari] {
+	width:210%;
+	margin-left:0px;
+}
+.form-horizontal select {
+	width:60%;
+}
+.btn-group {
+	margin-top:40px;
+	margin-left:80px;
+}
+.form-horizontal .control-label {
+	text-align:left;
+	width:27%;
+	color: #fff;
+	font-size: 13px;
+	font-weight:normal;
+}
+.form-horizontal .col-sm-10 {
+	width:73%;
+}

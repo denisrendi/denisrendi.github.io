@@ -1,0 +1,177 @@
+@charset "utf-8";
+
+#form-header {
+	width: 100%;
+	margin: 10px 0px 20px 0px;
+	padding: 0px;
+	color:#111;
+	text-align: center;
+	font-weight: bold;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+#form-wrap {
+	width:100%;
+	min-height:400px;
+	margin:0px 0px 45px 10px;
+	padding:0;
+	float:left;
+	border: 5px solid #ccc;
+}
+.form-horizontal {
+	padding: 10px 0px 40px 0px;
+	border: 2px solid #fff;
+	background-size: contain;
+	background-image: url(../images/white_wall.png);
+}
+.form-horizontal .form-group {
+	margin:0px 0px 10px 0px;
+}
+.form-horizontal .form-control {
+	border:medium ridge #fff;
+	font-size:13px;
+}
+.form-horizontal input {
+	width:100%;
+}
+.form-horizontal input[name=nopinjam], input[name=nokirim], input[name=nokembali], input[name=nomor] {
+	width:55%;
+	margin-right:3%;
+	float:left;
+}
+.form-horizontal input[name=tglpinjam], input[name=tglkirim], input[name=tglkembali], input[name=tanggal] {
+	width:42%;
+}
+.form-horizontal input[name=kpp], input[name=cabang], input[name=grup], input[name=lmr], input[name=rak], input[name=box] {
+	width:15%;
+	text-align:center;
+}
+.form-horizontal input[name=npwp] {
+	width:40%;
+}
+.form-horizontal input[name=npwp], input[name=kpp], input[name=grup], input[name=lmr], input[name=rak] {
+	margin-right:3%;
+	float:left;
+}
+#submits {
+	margin-top:40px;
+	margin-left:40px;
+}
+#resets {
+	margin-top:40px;
+	margin-left:20px;
+}
+.form-horizontal .control-label {
+	text-align:left;
+	margin-left:3%;
+	width:27%;
+	font-weight:normal;
+}
+.form-horizontal .col-sm-10 {
+	margin-right:3%;
+	width:67%;
+}
+.form-horizontal .col-lg-8 {
+	margin-right:3%;
+	width:67%;
+}
+#un, #pw, #cp {
+	float:left;
+}
+.form-horizontal .col-sm-10 label {
+	margin-left:10px;
+	padding-top:5px;
+	color: #CB0003;
+	font-weight: normal;
+}
+.form-horizontal .col-sm-10 label.valid {
+	color: #A1FF26;
+}
+input[type=radio].inputradio {
+	display:none;
+}
+input[type=radio].inputradio + label.labelradio {
+	padding-left:24px;
+	padding-right:15px;
+	padding-top:2px;
+	height:21px; 
+	display:inline-block;
+	line-height:20px;
+	background-repeat:no-repeat;
+	background-position: 0 0;
+	font-size:12px;
+	vertical-align:middle;
+	cursor:pointer;
+}
+input[type=radio].inputradio:checked + label.labelradio {
+	background-position: 0 -21px;
+}
+label.labelradio {
+	background-image: url(../images/radio-greensmall.png);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.fileUpload {
+	position: relative;
+	overflow: hidden;
+	margin: 10px;
+}
+input[type=checkbox].cb {
+	display:none;
+}
+input[type=checkbox].cb + label.lb {
+	z-index: -1000;
+	top: -1000px;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	margin-top: -1px -1px -1px 0px;
+	padding: 0;
+	border: 0;
+}
+input[type=checkbox].cb + label.lb {
+	padding-left: 20px;
+	padding-right:25px;
+	padding-top:2px;
+	margin-bottom:0px;
+	height: 15px;
+	display: inline-block;
+	line-height: 15px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	font-size: 12px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+input[type=checkbox].cb:checked + label.lb {
+	background-position: 0 -15px;
+}
+label.lb {
+	background-image: url(../images/checkboxdataperlupdate.png);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.fileUpload input.upload {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+#uploadFile {
+	width:60%;
+	float:left;
+}
+.btn {
+	margin:0;
+}
